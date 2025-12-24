@@ -13,5 +13,5 @@ dependencies:
   - scipy==1.14.1
   - joblib
   - matplotlib
-  - seabron
+  - seaborn
 name: mlflow-env
