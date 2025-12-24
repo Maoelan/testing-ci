@@ -1,6 +1,6 @@
 name: heart-disease-model
 
-conda_env: conda.yaml
+env_manager: virtualenv
 
 entry_points:
   main:

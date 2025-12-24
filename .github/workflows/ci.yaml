@@ -15,7 +15,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: "3.12.7"
+        python-version: "3.12.4"
 
     - name: Install MLflow
       run: |
@@ -23,4 +23,4 @@ jobs:
         pip install mlflow
 
     - name: Run MLflow Project
-      run: mlflow run MLProject --env-manager=conda
+      run: mlflow run MLProject --env-manager=virtualenv
