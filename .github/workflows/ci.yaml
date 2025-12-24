@@ -23,4 +23,6 @@ jobs:
         pip install mlflow
 
     - name: Run MLflow Project
+      env:
+        MLFLOW_PYTHON_BIN: python
       run: mlflow run MLProject --env-manager=virtualenv
