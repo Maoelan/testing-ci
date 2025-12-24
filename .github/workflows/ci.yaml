@@ -23,4 +23,4 @@ jobs:
         pip install mlflow
 
     - name: Run MLflow Project
-      run: mlflow run MLProject --env-manager=local
+      run: mlflow run MLProject --env-manager=conda
